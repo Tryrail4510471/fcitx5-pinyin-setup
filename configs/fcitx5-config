@@ -1,0 +1,3 @@
+[Behavior]
+# 各个程序共用同一输入状态，打开拼音后不会在下一个输入框掉回英文
+ShareInputState=All

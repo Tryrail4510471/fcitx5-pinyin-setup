@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Fcitx5
+GenericName=Input Method
+Comment=Start Input Method
+# 必须用 -D（前台）。-d 会 daemon 化导致 systemd 认为服务已退出并清掉进程组。
+Exec=fcitx5 -D
+Icon=fcitx
+Terminal=false
+Type=Application
+Categories=System;Utility;
+StartupNotify=false
+NoDisplay=true
